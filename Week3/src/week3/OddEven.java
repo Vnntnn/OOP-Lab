@@ -11,27 +11,22 @@ import java.util.Scanner;
 public class OddEven {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
         int even = 0;
         int odd = 0;
         int users = 0;
-        
-        while (users != -1) {
+
+        while(true) {
             users = input.nextInt();
-            
             if (users == -1) {
-                break;
+                System.out.println("Odd number = " + odd + " Even number = " + even);
+                return;
             }
-            
-            if ((users % 2) != 0) {
-                odd += 1;
+
+            if (users % 2 != 0) {
+                ++odd;
             } else {
-                even += 1;
+                ++even;
             }
-            
         }
-        
-        System.out.println("Odd number = " + odd + " Even number = " + even);
-        
     }
 }
