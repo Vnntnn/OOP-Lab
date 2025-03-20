@@ -53,8 +53,4 @@ public class CalculatorOneGUI {
         fr.setSize(400, 200);
         fr.setVisible(true);
     }
-
-//    public static void main(String[] args) {
-//        new CalculatorOneGUI();
-//    }
 }

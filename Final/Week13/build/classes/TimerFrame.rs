@@ -1,3 +1,2 @@
 TimerFrame
-startTimer
 TimerLabel

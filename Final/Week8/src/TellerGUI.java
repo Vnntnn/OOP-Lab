@@ -53,8 +53,4 @@ public class TellerGUI {
         fr.pack();
         fr.setVisible(true);
     }
-    
-//    public static void main(String[] args) {
-//        new TellerGUI();
-//    }
 }

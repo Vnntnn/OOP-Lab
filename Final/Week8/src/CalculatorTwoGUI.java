@@ -83,5 +83,4 @@ public class CalculatorTwoGUI {
         fr.setSize(420,360);
         fr.setVisible(true);
     }
-
 }

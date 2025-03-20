@@ -150,7 +150,7 @@ public class CalculatorSample implements ActionListener{
             field1.setText(String.valueOf(result));
         }
     }
-    
+
     public static void main(String[] args) {
         new CalculatorSample();
     }

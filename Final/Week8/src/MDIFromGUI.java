@@ -81,8 +81,4 @@ public class MDIFromGUI {
         fr.setSize(1000, 600);
         fr.setVisible(true);
     }
-
-    public static void main(String[] args) {
-        new MDIFromGUI();
-    }
 }

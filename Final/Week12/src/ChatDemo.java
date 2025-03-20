@@ -33,7 +33,7 @@ public class ChatDemo implements ActionListener, WindowListener {
         btn2.addActionListener(this);
         
         /**
-         * Add components to JFrame <- JPanel
+         * Add components to JFrame
          */
         p1.add(btn1);
         p1.add(btn2);
@@ -56,10 +56,6 @@ public class ChatDemo implements ActionListener, WindowListener {
         if (e.getSource().equals(btn1) && !"".equals(tf1.getText())) {
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
             System.out.print(dtf.format(LocalDateTime.now()));
-            
-            /**
-             * Add Input text to textArea
-             */
             t1.append(dtf.format(LocalDateTime.now()) + " : " + tf1.getText() + "\n");
             tf1.setText("");
         }else if (e.getSource().equals(btn2)){

@@ -10,7 +10,7 @@ class PausableTimer extends JLabel implements Runnable {
         setFont(new Font("Arial", Font.BOLD, 50));
         addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
-                running = !running; // Toggle state
+                running = !running;
             }
         });
     }
